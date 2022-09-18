@@ -1,3 +1,16 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+post_controllers:
+    resource: ../src/Web/Post/Infrastructure
+    type: attribute
+
+author_controllers:
+    resource: ../src/Web/Author/Infrastructure
+    type: attribute
+
+api_controllers:
+    resource: ../src/Api/Post/Infrastructure
+    type: attribute
+
